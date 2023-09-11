@@ -8,16 +8,16 @@ class Header extends React.Component {
         <nav className="main-nav">
           <ul>
             <li>
-              <a href="Home">Hem</a>
+              <a href="../Home">Hem</a>
             </li>
             <li>
-              <a href="Meny">Meny</a>
+              <a href="../Meny">Meny</a>
             </li>
             <li>
-              <a href="beställ">Beställ</a>
+              <a href="../beställ">Beställ</a>
             </li>
             <li>
-              <a href="Omoss">Om Oss</a>
+              <a href="../Omoss">Om Oss</a>
             </li>
           </ul>
         </nav>
