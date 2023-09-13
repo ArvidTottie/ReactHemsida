@@ -1,5 +1,5 @@
 import React from "react";
-
+import { NavLink, Link } from "react-router-dom";
 
 class Header extends React.Component {
 	render() {
@@ -8,16 +8,16 @@ class Header extends React.Component {
         <nav className="main-nav">
           <ul>
             <li>
-              <a href="../Home">Hem</a>
+              <NavLink to="/" class="active">Hem</NavLink>
             </li>
             <li>
-              <a href="../Meny">Meny</a>
+              <NavLink to="/Meny">Meny</NavLink>
             </li>
             <li>
-              <a href="../beställ">Beställ</a>
+              <NavLink to="/beställ">Beställ</NavLink>
             </li>
             <li>
-              <a href="../Omoss">Om Oss</a>
+              <NavLink to="/Omoss">Om Oss</NavLink>
             </li>
           </ul>
         </nav>

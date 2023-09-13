@@ -7,7 +7,7 @@ class Home extends React.Component {
           <h1>Välkommen till Lunden Pizzeria</h1>
           <p>Vi serverar husmans, pizza, kebab, grill och salladsrätter.</p>
           <div className="startsida-knappar">
-            <a href="meny   " className="btn">
+            <a href="meny" className="btn">
               Meny
             </a>
             <a href="beställ" className="btn">
