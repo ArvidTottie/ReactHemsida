@@ -11,20 +11,20 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 
 function App() {
-	return (
-		<div>
-			<Router>
-				<Header />
-				<Switch>
-                <Route path="/" exact component={Home} />
-                <Route path="/Meny" component={Meny} />
-                <Route path="/beställ" component={Beställ} />
-                <Route path="/Omoss" component={Omoss} />
-				</Switch>
-				<Footer />
-			</Router>
-		</div>
-	);
+  return (
+    <div>
+      <Router>
+        <Header />
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/Meny" component={Meny} />
+          <Route path="/beställ" component={Beställ} />
+          <Route path="/Omoss" component={Omoss} />
+        </Switch>
+        <Footer />
+      </Router>
+    </div>
+  );
 }
 
 export default App;

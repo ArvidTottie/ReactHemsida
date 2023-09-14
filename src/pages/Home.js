@@ -1,8 +1,9 @@
 import React from "react";
 
 class Home extends React.Component {
-    render() {
-        return <section className="top-container">
+  render() {
+    return (
+      <section className="top-container">
         <div className="showcase">
           <h1>Välkommen till Lunden Pizzeria</h1>
           <p>Vi serverar husmans, pizza, kebab, grill och salladsrätter.</p>
@@ -16,8 +17,8 @@ class Home extends React.Component {
           </div>
         </div>
       </section>
-      ;
-    }
+    );
+  }
 }
 
 export default Home;

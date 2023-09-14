@@ -1,14 +1,17 @@
 import React from "react";
-import { NavLink, /*Link*/ } from "react-router-dom";
+import { NavLink /*Link*/ } from "react-router-dom";
 
 class Header extends React.Component {
-	render() {
-        return <>
+  render() {
+    return (
+      <>
         {/* Nav */}
         <nav className="main-nav">
           <ul>
             <li>
-              <NavLink to="/" class="active">Hem</NavLink>
+              <NavLink to="/" class="active">
+                Hem
+              </NavLink>
             </li>
             <li>
               <NavLink to="/Meny">Meny</NavLink>
@@ -22,8 +25,8 @@ class Header extends React.Component {
           </ul>
         </nav>
       </>
-      ;
-	}
+    );
+  }
 }
 
 export default Header;
