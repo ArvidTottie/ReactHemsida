@@ -38,6 +38,8 @@ function Beställ() {
     <div className="Beställ">
         <h1>Beställ</h1>
         <p>Välj vilken/vilka pizzor du vill beställa samt dess antal.</p>
+        <br></br>
+        <p>Tryck därefter på "Skicka Beställning" för att skicka din beställning.</p>
         <form onSubmit={submit}>
   {formFields.map((form, index) => {
     return (
